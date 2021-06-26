@@ -1,0 +1,181 @@
+﻿/* header styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #031A28;
+  color: white;
+  padding: 30px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+.logo {
+    width: 120px;
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #EFA90B;
+}
+.navbar-links ul {
+  display: flex;
+}
+.nav-li {
+  margin: 9px;
+}
+a {
+  color: white;
+}
+.burger-bar {
+    width: 140px;
+    height: 50px;
+    background-color: #EFA90B;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.toggle-button {  
+  /* top: 10px;
+  right: 15px; */
+  color: black;
+  font-size: 25px;
+}
+
+/* @media (max-width: 768px) {
+  .toggle-button {
+    display: block;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-li {
+    text-align: center;
+  }
+  .navbar-links.active {
+    display: block;
+  }
+} */
+
+/* profile styles */
+.title {
+    font-size:  40px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.main-title {
+    display: flex;
+}
+.image-wrapper {
+    margin-left: 100px;
+    width: 800px;
+    height: 500px;
+}
+.main-title-wrapper {
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 100px; 
+}
+.main-title-text-wrapper {
+    font-size: 16px;
+    color: #687A84;
+    padding-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.button-wrapper {
+    background-color: #EFA90B;
+    border-radius: 2px;
+    width: 200px;
+    height: 50px;
+    color: rgb(54, 53, 53);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* login styles */
+.login {
+  background-color: #1C1F26;
+}
+.login-wrapper {
+    border: 1px solid #252932;
+    background-color: #252932;
+    border-radius: 3px;
+    width: 500px;
+    height: 360px;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+.hr-wrapper {
+    margin-top: 25px;
+    border: 1px solid grey;
+}
+.authorization {
+    color: white;
+    font-size: 27px;
+    font-family: "ALK Sanet", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+input[type=email], select {
+    width: 90%;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #1C1F26;;
+    border: 1px solid #1C1F26;;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 90%;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #1C1F26;;
+    border: 1px solid #1C1F26;;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 90%;
+background-color: #5867DD;
+color: white;
+font-size: 16px;
+font-family: "ALK Sanet", sans-serif;   
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #2f412f;
+}
+.form-wrapper {
+    margin-left: 43px;
+    margin-top: 50px;
+}
